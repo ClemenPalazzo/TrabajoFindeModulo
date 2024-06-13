@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SetUP Hardware</title>
+  <meta name="description" content="SetUP accesorios y perifericos gamers" />
+  <meta name="keywords"
+    content="gamer, perifericos, componentes, pc, graficas, ram, gabinete, rgb, mouse, teclado, mecanico, auriculares" />
+  <meta name="author" content="Grupo 1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg pt-md-4 px-md-5 bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <form class="d-none d-md-block">
+          <div class="input-group">
+            <input type="search" class="form-control" placeholder="Buscar producto" aria-label="Buscar producto" />
+            <button class="btn btn-outline-secondary text-light" type="button">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </form>
+        <div>
+          <a href="#" class="text-decoration-none text-light d-md-none">
+            <i class="bi bi-cart3 fs-1 align-bottom ms-md-3 d-md-none"></i>
+          </a>
+          <a href="#" class="text-decoration-none text-light mx-3 d-md-none">
+            <i class="bi bi-person-circle fs-1 align-bottom"></i>
+          </a>
+          <a href="#" class="text-decoration-none text-light d-md-none">
+            <i class="bi bi-search fs-1 align-bottom me-2"></i>
+          </a>
+          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-md-end" id="navbarNavDropdown">
+          <ul class="navbar-nav align-items-md-center">
+            <li class="nav-item">
+              <a class="nav-link active fs-5 me-3" aria-current="page" href="#">Registro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 me-3" href="#">¿Quienes somos?</a>
+            </li>
+            <li class="nav-item dropdown fs-5">
+              <a class="nav-link dropdown-toggle me-3" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu bg-black py-1 border-0 rounded-0">
+                <li>
+                  <a class="dropdown-item px-3" href="#">Más vendidos</a>
+                </li>
+                <li><a class="dropdown-item px-3" href="#">Juegos</a></li>
+                <li>
+                  <a class="dropdown-item px-3" href="#">Consolas</a>
+                </li>
+                <li>
+                  <a class="dropdown-item px-3" href="#">Controles</a>
+                </li>
+                <li>
+                  <a class="dropdown-item px-3" href="#">Perifericos</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 me-3" href="#">Ofertas</a>
+            </li>
+
+            <li class="nav-item dropdown fs-5">
+              <a class="nav-link dropdown-toggle me-3" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Más
+              </a>
+              <ul class="dropdown-menu bg-black py-1 border-0 rounded-0">
+                <li>
+                  <a class="dropdown-item px-3" href="#">Contactanos</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item me-3 d-none d-md-flex">
+              <a class="nav-link fs-5 d-inline-flex flex-row-reverse align-items-center" href="#">Entrar
+                <i class="bi bi-person-circle pe-2 fs-2"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 d-none d-md-flex">
+              <a class="nav-link" href="#">
+                <i class="bi bi-cart3 fs-2"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Banner -->
+
+    <div class="jumbotron jumbotron-fluid banner">
+      <img class="img-fluid w-100" src="./img/wp12657222.webp" alt="Persona tatuando">
+      <div class="banner-content text-center text-white">
+        <h1 class="display-4">Enciende tu pasión por la tecnología</h1>
+        <p class="lead">Descubre lo último en tecnología</p>
+        <a href="#" class="btn btn-primary btn-lg">Explorar ahora</a>
+      </div>
+    </div>
+    </div>
+    <!-- Destacados -->
+    <div class="container my-5">
+      <h2 class="text-center">Destacados</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card h-100"> <!-- Agregado: h-100 para hacer que todas las tarjetas tengan la misma altura -->
+            <img src="./img/Rtx4060-removebg-preview.png" class="card-img-top" alt="RTX 4060">
+            <div class="card-body">
+              <h5 class="card-title">Tarjeta gráfica RTX 4060</h5>
+              <p class="card-text">Precio: $350.00</p>
+              <a href="#" class="btn btn-primary">Agregar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="./img/PRIME_B550-PLUS_1-removebg-preview.png" class="card-img-top" alt="Motherboard">
+            <div class="card-body">
+              <h5 class="card-title">Motherboard Aura Sync RGB</h5>
+              <p class="card-text">Precio: $200.00</p>
+              <a href="#" class="btn btn-primary">Agregar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="./img/Ram16.jpeg" class="card-img-top" alt="RAM">
+            <div class="card-body">
+              <h5 class="card-title">Memoria RAM 16GB</h5>
+              <p class="card-text">Precio: $120.00</p>
+              <a href="#" class="btn btn-primary">Agregar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="./img/fuentes-RedDragon.jpg" class="card-img-top" alt="Power Supply">
+            <div class="card-body">
+              <h5 class="card-title">Fuente de Poder 500W</h5>
+              <p class="card-text">Precio: $75.00</p>
+              <a href="#" class="btn btn-primary">Agregar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <article class="container-fluid bg-violet text-white p-5">
+      <div class="text-center"> <!-- Añadido: Clase para centrar texto -->
+        <h4 class="text-white">"EXPLORA Y AHORRA <br> Déjanos tu correo para recibir noticias y ofertas exclusivas"</h4>
+      </div>
+      <div class="d-flex column-gap-4 justify-content-center">
+      </div>
+    </article>
+
+
+    <!-- Categorías -->
+    <div class="container my-5">
+      <h2 class="text-center">Categorías</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card category-card">
+            <img src="/img/FotoConsola.png" class="card-img-top" alt="Consolas">
+            <div class="card-body">
+              <h5 class="card-title">Consolas</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card category-card">
+            <img src="./img/ImagenPerifericos.png" class="card-img-top" alt="Arma tu PC">
+            <div class="card-body">
+              <h5 class="card-title">Arma tu PC</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card category-card">
+            <img src="./img/ImagenControles.jpg" class="card-img-top" alt="Periféricos">
+            <div class="card-body">
+              <h5 class="card-title">Periféricos Consola</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <article class="container-fluid bg-image text-white p-5">
+      <div class="text-center">
+        <h4 class="text-white">"EXPLORA Y PARA MEJORAR TU EXPERIENCIA <br> PRUEBA LOS NUEVOS LANZAMIENTOS CON TU SET-UP
+          ACTUALIZADO"</h4>
+      </div>
+      <div class="d-flex column-gap-4 justify-content-center">
+      </div>
+    </article>
+
+
+    <!-- Carrusel de Productos -->
+    <article>
+      <div class="container mt-4">
+        <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Item 1 -->
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                  <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="./img/nvidioaGeforce3090.jpg"
+                      alt="Tarjeta Gráfica 'RTX 3090'">
+                    <div class="card-body">
+                      <h5 class="card-title">Tarjeta Gráfica<br>"RTX 3090"</h5>
+                      <p class="card-text">Precio: $1,500 USD</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 d-none d-sm-block">
+                  <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="./Image" alt="Tarjeta Gráfica 'RTX 3080'">
+                    <div class="card-body">
+                      <h5 class="card-title">Tarjeta Gráfica<br>"RTX 3080"</h5>
+                      <p class="card-text">Precio: $1,200 USD</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 d-none d-md-block">
+                  <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="./img/ProcesadorI9.jpg" alt="Procesador 'Intel i9'">
+                    <div class="card-body">
+                      <h5 class="card-title">Procesador<br>"Intel i9"</h5>
+                      <p class="card-text">Precio: $500 USD</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 d-none d-lg-block">
+                  <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="./img/Ram-led.png" alt="Memoria RAM 'Corsair Vengeance'">
+                    <div class="card-body">
+                      <h5 class="card-title">Memoria RAM<br>"Corsair Vengeance"</h5>
+                      <p class="card-text">Precio: $150 USD</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                  <div class="card h-100">
+                    <!-- Corregir imagen por jpg -->
+                    <img class="card-img-top img-fluid" src="./img/DiscoDuro.jpg" alt="Disco Duro 'Samsung SSD'">
+                    <div class="card-body">
+                      <h5 class="card-title">Disco Duro<br>"Samsung SSD"</h5>
+                      <p class="card-text">Precio: $200 USD</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 d-none d-sm-block">
+                  <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="./img/FuenteEvga.png" alt="Fuente de Poder 'EVGA 750W'">
+                    <div class="card-body">
+                      <h5 class="card-title">Fuente de Poder<br>"EVGA 750W"</h5>
+                      <p class="card-text">Precio: $120 USD</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 d-none d-md-block">
+                  <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="./img/PlacaMadreAsus.jpg" alt="Placa Madre 'ASUS ROG'">
+                    <div class="card-body">
+                      <h5 class="card-title">Placa Madre<br>"ASUS ROG"</h5>
+                      <p class="card-text">Precio: $300 USD</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 d-none d-lg-block">
+                  <div class="card h-100">
+                    <!-- JPG -->
+                    <img class="card-img-top img-fluid" src="./img/Refigeracion.jpg"
+                      alt="Refrigeración Líquida 'NZXT Kraken'">
+                    <div class="card-body">
+                      <h5 class="card-title">Refrigeración<br>"NZXT Kraken"</h5>
+                      <p class="card-text">Precio: $250 USD</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Controles de navegación -->
+          <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- NUEVO CÓDIGO -->
+    <!-- Ofertas Destacadas -->
+    <div class="highlighted-offers">
+      <h1>OFERTAS DESTACADAS</h1>
+      <div class="offer-container">
+        <div class="offer-card">
+          <h2>-15% en accesorios</h2>
+          <a href="#" class="btn btn-primary">Ver ofertas</a>
+        </div>
+        <div class="offer-images">
+          <img src="./Image/MonitorAsus.jpg" alt="Game Cover 1">
+          <img src="./Image/MonitorAsus.jpg" alt="Game Cover 2">
+          <img src="./Image/MonitorAsus.jpg" alt="Game Cover 3">
+        </div>
+      </div>
+    </div>
+
+    <!-- Explora y Ahorra -->
+    <div class="explore-save">
+      <h2>EXPLORA Y AHORRA</h2>
+      <p>Aprovecha un 25% de descuento en compras superiores a $150</p>
+      <a href="#" class="btn btn-primary">Comprar ahora</a>
+    </div>
+    <!-- FIN DEL NUEVO CÓDIGO -->
+
+
+    <!-- Promociones -->
+    <div class="container my-5">
+      <h2 class="text-center">Promociones</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card promotion-card">
+            <img src="path_to_promo_image1.jpg" class="card-img-top" alt="Promo 1">
+            <div class="card-body">
+              <h5 class="card-title">Promo 1</h5>
+              <p class="card-text">Detalles de la promoción 1</p>
+              <a href="#" class="btn btn-primary">Ver detalles</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card promotion-card">
+            <img src="path_to_promo_image2.jpg" class="card-img-top" alt="Promo 2">
+            <div class="card-body">
+              <h5 class="card-title">Promo 2</h5>
+              <p class="card-text">Detalles de la promoción 2</p>
+              <a href="#" class="btn btn-primary">Ver detalles</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card promotion-card">
+            <img src="path_to_promo_image3.jpg" class="card-img-top" alt="Promo 3">
+            <div class="card-body">
+              <h5 class="card-title">Promo 3</h5>
+              <p class="card-text">Detalles de la promoción 3</p>
+              <a href="#" class="btn btn-primary">Ver detalles</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </main>
+  <footer class="bg-black py-md-5 py-3">
+    <section class="container text-center text-md-start">
+      <div class="row">
+        <div class="col-md-3 text-center display-1 d-flex justify-content-center align-items-md-center mb-4">
+          <i class="bi bi-pc-display"></i>
+        </div>
+        <article class="col-md-3">
+          <h6 class="mb-md-4 mb-2 fw-bolder">Productos</h6>
+          <div class="mb-md-3">
+            <a class="link-secondary link-offset-1-hover link-underline-opacity-0 link-underline-opacity-100-hover"
+              href="#">Juegos</a>
+            <br />
+          </div>
+          <div class="mb-md-3">
+            <a class="link-secondary link-offset-1-hover link-underline-opacity-0 link-underline-opacity-100-hover"
+              href="#">Consolas</a>
+            <br />
+          </div>
+          <div class="mb-md-3">
+            <a class="link-secondary link-offset-1-hover link-underline-opacity-0 link-underline-opacity-100-hover"
+              href="#">Controles</a>
+            <br />
+          </div>
+          <div class="mb-3">
+            <a class="link-secondary link-offset-1-hover link-underline-opacity-0 link-underline-opacity-100-hover"
+              href="#">Accesorios</a>
+            <br />
+          </div>
+        </article>
+        <article class="col-md-3">
+          <h6 class="mb-md-4 mb-2 fw-bolder">Tienda</h6>
+          <p class="mb-md-3 mb-1 text-secondary">
+            Av.Fictia, calle fictia 10 <br />
+            44100 Provincia, ciudad, pais
+          </p>
+          <p class="mb-md-3 mb-1 text-secondary">Lune-Vie: 7:00 - 22:00</p>
+          <div class="mb-md-3 mb-1">
+            <a class="link-secondary link-offset-1-hover link-underline-opacity-0 link-underline-opacity-100-hover"
+              href="#">info@correo.ficticio.com</a>
+            <br />
+          </div>
+          <div class="mb-md-3 mb-3">
+            <a class="link-secondary link-offset-1-hover link-underline-opacity-0 link-underline-opacity-100-hover"
+              href="#">+54-1-23-5678910</a>
+          </div>
+        </article>
+        <article class="col-md-3">
+          <h6 class="mb-md-4 fw-bolder">Política</h6>
+          <div class="mb-md-3">
+            <a class="link-secondary link-offset-1-hover link-underline-opacity-0 link-underline-opacity-100-hover"
+              href="#">Términos y condiciones</a>
+            <br />
+          </div>
+          <div>
+            <a class="link-secondary link-offset-1-hover link-underline-opacity-0 link-underline-opacity-100-hover"
+              href="#">Política de envío</a>
+            <br />
+          </div>
+          <div class="mb-md-3">
+            <a class="link-secondary link-offset-1-hover link-underline-opacity-0 link-underline-opacity-100-hover"
+              href="#">Política de reembolso</a>
+            <br />
+          </div>
+          <div class="mb-md-3">
+            <a class="link-secondary link-offset-1-hover link-underline-opacity-0 link-underline-opacity-100-hover"
+              href="#">Política de privacidad</a>
+            <br />
+          </div>
+          <div class="mb-md-3">
+            <a class="link-secondary link-offset-1-hover link-underline-opacity-0 link-underline-opacity-100-hover"
+              href="#">Política de cookies</a>
+            <br />
+          </div>
+          <div class="mb-3">
+            <a class="link-secondary link-offset-1-hover link-underline-opacity-0 link-underline-opacity-100-hover"
+              href="#">FAQ</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <div class="border mx-5 border-0 border-bottom mt-3"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="row justify-content-md-start m-0">
+            <h6 class="my-4 fw-bolder text-center text-md-start">
+              Métodos de pago
+            </h6>
+            <div class="col-3 col-md-1 mb-3 me-md-3">
+              <img src="./img/Visa.jpg" alt="">
+            </div>
+            <div class="col-3 col-md-1 mb-3 me-md-3">
+              <img src="./img/Master Card.jpg" alt="">
+            </div>
+            <div class="col-3 col-md-1 mb-3 me-md-3">
+              <img src="./img/American Express.jpg" alt="">
+            </div>
+            <div class="col-3 col-md-1 mb-3 me-md-3">
+              <img src="./img/JCB.jpg" alt="">
+            </div>
+            <div class="col-3 col-md-1 me-md-3">
+              <img src="./img/Discover.jpg" alt="">
+            </div>
+            <div class="col-3 col-md-1 me-md-3">
+              <img src="./img/China Union Pay.jpg" alt="">
+            </div>
+            <div class="col-3 col-md-1 me-md-3">
+              <img src="./img/Discover.jpg" alt="">
+            </div>
+            <div class="col-3 col-md-1 me-md-3">
+              <img src="./img/PayPal.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h6 class="my-4 fw-bolder text-center text-md-start">
+            Únete a la comunidad
+          </h6>
+          <div class="text-center text-md-start">
+            <a href="https://www.facebook.com/?locale=es_LA" class="text-decoration-none link-light ">
+              <i class="bi bi-facebook me-3 me-md-4 fs-3 hoverIconsRedesSociales"></i>
+            </a>
+            <a href="https://www.instagram.com/accounts/login/" class="text-decoration-none link-light  ">
+              <i class="bi bi-instagram me-3 me-md-4 fs-3 hoverIconsRedesSociales"></i>
+            </a>
+            <a href="https://www.youtube.com" class="text-decoration-none link-light">
+              <i class="bi bi-youtube me-3 me-md-4 fs-3 hoverIconsRedesSociales"></i>
+            </a>
+            <a href="https://www.tiktok.com/?lang=es" class="text-decoration-none link-light ">
+              <i class="bi bi-tiktok me-md-4 fs-3 hoverIconsRedesSociales"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
